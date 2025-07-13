@@ -1,6 +1,6 @@
 .contact-container {
   padding: 40px;
-  max-width: 1200px;
+  width: 400px;
   margin: auto;
 }
 
@@ -71,15 +71,22 @@
 
 @media (min-width: 350px) and (max-width:1200px){
   .contact-content {
+    max-width:300px;
     flex-direction: column;
     justify-content: space-between;
+  
   }
   .contact-details p {
     font-size: 1.0rem;
  
+ 
 }
 .contact-container h2 {
+  width: 300px;
  font-size: 1.2rem;
+ text-align: center;
+
+ 
 }
 .contact-form input,
 .contact-form textarea {
