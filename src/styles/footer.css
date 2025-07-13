@@ -1,0 +1,34 @@
+.footer {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #1e90ff;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.footer-contact {
+  margin-top: 15px;
+}
+
+.footer-contact p {
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.85rem;
+  color: #bbb;
+}
