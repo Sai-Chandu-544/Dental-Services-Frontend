@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dental-Services-Frontend/static/css/main.eb88ee2f.css",
+    "main.css": "/Dental-Services-Frontend/static/css/main.a31183a8.css",
     "main.js": "/Dental-Services-Frontend/static/js/main.b2c8c489.js",
     "index.html": "/Dental-Services-Frontend/index.html",
-    "main.eb88ee2f.css.map": "/Dental-Services-Frontend/static/css/main.eb88ee2f.css.map",
+    "main.a31183a8.css.map": "/Dental-Services-Frontend/static/css/main.a31183a8.css.map",
     "main.b2c8c489.js.map": "/Dental-Services-Frontend/static/js/main.b2c8c489.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb88ee2f.css",
+    "static/css/main.a31183a8.css",
     "static/js/main.b2c8c489.js"
   ]
 }
