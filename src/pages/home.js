@@ -10,7 +10,7 @@ export const Home=()=>{
     <img
       src="https://img.freepik.com/free-photo/smiling-doctor-dental-office_23-2151983462.jpg"
       className="hero-bg"
-    />
+    alt="hero-image"/>
 
     <div className="hero-content">
       <h1>Your Smile, Our Passion</h1>

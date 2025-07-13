@@ -18,8 +18,8 @@ export const App=()=> {
   <Route path="/contact" element={<ContactUs/>}/>
   <Route path="/about" element={ <AboutUs/>}/>
   <Route path="/services" element={ <Services/>}/>
-  {/* <Route path="/faq" element={ <FAQ/>}/>
-  */}
+ 
+
 
  
 </Routes>
