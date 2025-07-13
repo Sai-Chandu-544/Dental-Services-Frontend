@@ -1,7 +1,7 @@
 {
  "homepage": "https://sai-chandu-544.github.io/Dental-Services-Frontend",
 
-  "name": "dental-services",
+  "name": "dental_services",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
