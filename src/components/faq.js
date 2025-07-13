@@ -34,7 +34,7 @@ export const FAQ=() =>{
 
   return (
     <div id="faq"className="faq-container">
-      <h1 className="faq-heading">Frequently Asked Questions</h1>
+      <h1>Frequently Asked Questions</h1>
       <div className="faq-list">
         {faqData.map((faq, index) => (
           <div className="faq-item" key={index}>

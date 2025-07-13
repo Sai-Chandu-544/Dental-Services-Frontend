@@ -32,3 +32,21 @@
   font-size: 0.85rem;
   color: #bbb;
 }
+
+@media (min-width:350px) and (max-width:1200px){
+
+  
+.footer h3 {
+  
+  font-size: 1.2rem;
+ 
+}
+.footer-contact p {
+  font-size: 0.6rem;
+}
+.footer p {
+ 
+  font-size: 0.8rem;
+}
+
+}

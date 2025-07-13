@@ -1,4 +1,5 @@
 .faq-container {
+  
   max-width: 800px;
   height: 100vh;
   margin: 60px auto;
@@ -7,11 +8,14 @@
   color: #2c3e50;
 }
 
-.faq-heading {
+.faq-container  h1 {
+
+font-size: 2.5rem;
     margin-top: 100px;
   text-align: center;
   margin-bottom: 30px;
   color: #2980b9;
+  
 }
 
 .faq-list {
@@ -56,4 +60,20 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media (min-width:350px) and (max-width:1200px){
+
+.faq-container  h1 {
+ font-size: 1.2rem;
+
+  
+}
+.faq-container{
+  margin-top: 150px;
+}
+  .faq-question {
+  font-size: 0.8rem;
+}
+
 }

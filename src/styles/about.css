@@ -29,7 +29,7 @@ section p {
 
 .practitioners {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -57,20 +57,52 @@ section p {
   display: inline;
 }
 
-@media (min-width: 350px) {
-  .practitioners {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .practitioner-card {
-    flex: 1;
-  }
-}
 
 
 .mission {
   background-color: #f8f9fa;
   padding: 30px;
   border-radius: 10px;
+}
+
+@media (min-width: 350px) and (max-width:1200px) {
+  .practitioners {
+    flex-direction: column;
+   
+  }
+
+  .practitioner-card h3{
+    font-size: 0.8rem;
+  
+ 
+
+  }
+  .practitioner-card p{
+    font-size: 0.6rem;
+  
+ 
+
+  }
+  .practitioner-card img {
+  width: 80px;
+  height: 80px;
+ 
+}
+  .section h2 {
+  
+  font-size: 1.2rem;
+
+}
+section p {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: black;
+  font-weight: 500;
+}
+.practitioner-card {
+  
+  gap: 10px;
+ 
+ 
+}
 }

@@ -16,12 +16,6 @@
   gap: 40px;
 }
 
-@media (min-width: 768px) {
-  .contact-content {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 
 .contact-form {
   flex: 1;
@@ -73,4 +67,25 @@
 
 .contact-details p {
   margin: 6px 0;
+}
+
+@media (min-width: 350px) and (max-width:1200px){
+  .contact-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-details p {
+    font-size: 1.0rem;
+ 
+}
+.contact-container h2 {
+ font-size: 1.2rem;
+}
+.contact-form input,
+.contact-form textarea {
+ 
+  font-size: 10px;
+ 
+ 
+}
 }
